@@ -2,7 +2,6 @@ html, body {
     margin:0;
     padding:0;
     height: 100%;
-    background-color: #ffffff;
 }
 .div1 {
     text-align: center;
@@ -139,8 +138,7 @@ html, body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
-    margin-top: 40px;
-    
+    margin-top: 120px; /* Aumente este valor para descer mais */
 }
 
 .div6 {
@@ -149,7 +147,7 @@ html, body {
     align-items: center;
     position: absolute;
     left: 10%; /* Ajuste conforme necessário */
-    top: 180%;
+    top: 190%;
     width: 40%; /* Ajuste para melhor proporção */
 }
 
@@ -181,7 +179,7 @@ html, body {
     align-items: center;
     position: absolute;
     left: 50%; /* Ajuste conforme necessário */
-    top: 180%;
+    top: 190%;
     width: 40%; /* Ajuste para melhor proporção */
 }
 

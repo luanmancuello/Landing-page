@@ -261,3 +261,15 @@ document.querySelectorAll('.modulo-header').forEach(header => {
         }
     });
 });
+const darkColor = () => {
+    const r = Math.floor(Math.random() * 50);
+    const g = Math.floor(Math.random() * 50);
+    const b = Math.floor(Math.random() * 50);
+    return `rgb(${r}, ${g}, ${b})`;
+};
+
+document.documentElement.style.height = '100%'; // Garante altura total
+document.body.style.minHeight = '100vh';        // Garante altura total
+
+document.body.style.background = `linear-gradient(135deg, ${darkColor()}, ${darkColor()})`;
+document.body.style.color = 'white';

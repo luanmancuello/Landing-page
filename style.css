@@ -1,8 +1,11 @@
-html, body {
-    margin:0;
-    padding:0;
+html,
+body {
+    margin: 0;
+    padding: 0;
     height: 100%;
+    background-image: url('img/backgroudborracha.jpg');
 }
+
 .div1 {
     text-align: center;
     margin-top: -20px;
@@ -14,6 +17,7 @@ html, body {
     width: 100%;
     position: relative;
 }
+
 .div1 .imagem1 {
     max-width: 200px;
     margin-top: 40px;
@@ -31,7 +35,7 @@ html, body {
     font-weight: bolder;
     color: white;
     margin-top: 10px;
-    
+
 }
 
 .div1 .texto2 {
@@ -39,7 +43,7 @@ html, body {
     color: white;
     line-height: 1.8;
     font-weight: medium;
-    
+
 }
 
 .div1 .texto1,
@@ -64,7 +68,10 @@ html, body {
 }
 
 /* Estilos gerais dos cartões */
-.div2, .div3, .div4, .div5 {
+.div2,
+.div3,
+.div4,
+.div5 {
     width: 37%;
     background: lightgray;
     border-radius: 10px;
@@ -77,7 +84,10 @@ html, body {
 }
 
 /* Ícone + título */
-.div2p1, .div3p1, .div4p1, .div5p1 {
+.div2p1,
+.div3p1,
+.div4p1,
+.div5p1 {
     margin-top: -20px;
     display: flex;
     align-items: center;
@@ -85,7 +95,10 @@ html, body {
 }
 
 /* Ícones */
-.icone1, .icone2, .icone3, .icone4 {
+.icone1,
+.icone2,
+.icone3,
+.icone4 {
     width: 50px;
     height: 50px;
     background-color: white;
@@ -95,13 +108,19 @@ html, body {
     align-items: center;
 }
 
-.icone1 img, .icone2 img, .icone3 img, .icone4 img {
+.icone1 img,
+.icone2 img,
+.icone3 img,
+.icone4 img {
     width: 40px;
     height: 40px;
 }
 
 /* Títulos */
-.titulo1, .titulo2, .titulo3, .titulo4 {
+.titulo1,
+.titulo2,
+.titulo3,
+.titulo4 {
     font-size: 25px;
     font-family: 'Montserrat', Arial, sans-serif;
     font-weight: bold;
@@ -109,7 +128,10 @@ html, body {
 }
 
 /* Textos */
-.texto1, .texto2, .texto3, .texto4 {
+.texto1,
+.texto2,
+.texto3,
+.texto4 {
     font-size: 18px;
     font-family: 'Montserrat', Arial, sans-serif;
     color: rgb(52, 50, 50);
@@ -117,7 +139,10 @@ html, body {
 }
 
 /* Imagens separadas */
-.imagem2, .imagem3, .imagem4, .imagem5 {
+.imagem2,
+.imagem3,
+.imagem4,
+.imagem5 {
     position: absolute;
     top: 0;
     right: 0;
@@ -127,7 +152,10 @@ html, body {
     border-radius: 8px;
 }
 
-.imagem2 img, .imagem3 img, .imagem4 img, .imagem5 img {
+.imagem2 img,
+.imagem3 img,
+.imagem4 img,
+.imagem5 img {
     width: 100%;
     height: 100%;
     border-radius: 8px;
@@ -138,7 +166,8 @@ html, body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
-    margin-top: 120px; /* Aumente este valor para descer mais */
+    margin-top: 120px;
+    /* Aumente este valor para descer mais */
 }
 
 .div6 {
@@ -146,16 +175,22 @@ html, body {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    left: 10%; /* Ajuste conforme necessário */
+    left: 10%;
+    /* Ajuste conforme necessário */
     top: 190%;
-    width: 40%; /* Ajuste para melhor proporção */
+    width: 40%;
+    /* Ajuste para melhor proporção */
 }
 
 .imagem6 {
-    width: 180px; /* Ajuste conforme necessário */
-    height: 180px; /* Certifique-se de que a altura e a largura sejam iguais */
-    border-radius: 100px; /* Deixa a imagem com bordas arredondadas */
-    object-fit: cover; /* Mantém a imagem bem ajustada dentro do contêiner */
+    width: 180px;
+    /* Ajuste conforme necessário */
+    height: 180px;
+    /* Certifique-se de que a altura e a largura sejam iguais */
+    border-radius: 100px;
+    /* Deixa a imagem com bordas arredondadas */
+    object-fit: cover;
+    /* Mantém a imagem bem ajustada dentro do contêiner */
 }
 
 .texto6 {
@@ -178,16 +213,22 @@ html, body {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    left: 50%; /* Ajuste conforme necessário */
+    left: 50%;
+    /* Ajuste conforme necessário */
     top: 190%;
-    width: 40%; /* Ajuste para melhor proporção */
+    width: 40%;
+    /* Ajuste para melhor proporção */
 }
 
 .imagem7 {
-    width: 180px; /* Ajuste conforme necessário */
-    height: 180px; /* Certifique-se de que a altura e a largura sejam iguais */
-    border-radius: 100px; /* Deixa a imagem com bordas arredondadas */
-    object-fit: cover; /* Mantém a imagem bem ajustada dentro do contêiner */
+    width: 180px;
+    /* Ajuste conforme necessário */
+    height: 180px;
+    /* Certifique-se de que a altura e a largura sejam iguais */
+    border-radius: 100px;
+    /* Deixa a imagem com bordas arredondadas */
+    object-fit: cover;
+    /* Mantém a imagem bem ajustada dentro do contêiner */
 }
 
 .texto8 {
@@ -204,11 +245,14 @@ html, body {
     color: lightgray;
     text-align: center;
 }
-.texto8, .texto9 {
+
+.texto8,
+.texto9 {
     display: block;
 }
 
-.texto7mobile, .texto9mobile {
+.texto7mobile,
+.texto9mobile {
     display: none;
 }
 
@@ -219,7 +263,9 @@ html, body {
 
 }
 
-.texto10, .texto11, .texto12 {
+.texto10,
+.texto11,
+.texto12 {
     margin: 5px 0;
     font-family: Arial, sans-serif;
 }
@@ -230,8 +276,10 @@ html, body {
     color: lightgray;
     background-color: blueviolet;
     border-radius: 20px;
-    padding: 5px 15px; /* Espaçamento interno */
-    display: inline-block; /* Faz o fundo acompanhar o tamanho do texto */
+    padding: 5px 15px;
+    /* Espaçamento interno */
+    display: inline-block;
+    /* Faz o fundo acompanhar o tamanho do texto */
 }
 
 .texto11 {
@@ -240,8 +288,10 @@ html, body {
 }
 
 .textoPequeno {
-    font-size: 0.5em; /* Diminui o tamanho do ",90" */
-    vertical-align: 20px; /* Ajusta o alinhamento para não ficar tão alto */
+    font-size: 0.5em;
+    /* Diminui o tamanho do ",90" */
+    vertical-align: 20px;
+    /* Ajusta o alinhamento para não ficar tão alto */
 }
 
 .texto12 {
@@ -258,13 +308,18 @@ html, body {
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
-    transition: background-color 0.3s;
     font-weight: bold;
+
+    /* Suavidade na transformação */
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .botaodivoferta:hover {
     background-color: #0056b3;
+    transform: scale(1.08);
+    /* aumenta levemente */
 }
+
 
 /* Layout base */
 .slider-container {
@@ -293,7 +348,8 @@ html, body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 16px; /* Garante que a imagem siga o arredondamento */
+    border-radius: 16px;
+    /* Garante que a imagem siga o arredondamento */
 }
 
 /* Posicionamento padrão - será ajustado via classes JS */
@@ -357,11 +413,13 @@ html, body {
 }
 
 .btn-prev {
-    left: -120px; /* mais afastado à esquerda */
+    left: -120px;
+    /* mais afastado à esquerda */
 }
 
 .btn-next {
-    right: -120px; /* mais afastado à direita */
+    right: -120px;
+    /* mais afastado à direita */
 }
 
 /* Indicadores (bolinhas) */
@@ -370,7 +428,8 @@ html, body {
     display: flex;
     justify-content: center;
     gap: 12px;
-    margin-top: 20px; /* distância leve abaixo do slider */
+    margin-top: 20px;
+    /* distância leve abaixo do slider */
     z-index: 4;
 }
 
@@ -396,7 +455,8 @@ html, body {
     padding: 60px 20px;
     max-width: 1200px;
     margin: 0 auto;
-    margin: 0 0 0 auto; /* Alinha o container à direita */
+    margin: 0 0 0 auto;
+    /* Alinha o container à direita */
 }
 
 .instructor-container {
@@ -429,7 +489,8 @@ html, body {
 .instructor-description p {
     font-size: 1.4rem;
     line-height: 1.6;
-    color: #ffffff; /* Cor forte sem background */
+    color: #ffffff;
+    /* Cor forte sem background */
     margin: 0;
     font-weight: 1300;
 }
@@ -445,17 +506,18 @@ html, body {
 /* slider 2 separados*/
 /* Estilos específicos para o carrossel */
 .divprincipalcarousel {
-width: 100%;
+    width: 100%;
 }
+
 .custom-carousel-container {
     position: relative;
     width: 1400px;
     margin: 50px auto;
-    overflow: visible; /* para mostrar flechas */
+    overflow: visible;
 }
 
 .custom-carousel-viewport {
-    overflow: hidden; /* isto esconde o slide 4 até que seja mostrado */
+    overflow: hidden;
     width: 100%;
 }
 
@@ -494,6 +556,8 @@ width: 100%;
 
 .divprincipalcarousel .custom-carousel-btn {
     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     background: rgb(201, 159, 159);
     color: rgb(4, 0, 0);
     border: none;
@@ -504,7 +568,6 @@ width: 100%;
     cursor: pointer;
     z-index: 10;
     transition: background 0.3s ease;
-    margin-top: -270px;
 }
 
 .divprincipalcarousel .custom-prev-btn {
@@ -521,11 +584,12 @@ width: 100%;
 
 .custom-carousel-indicators {
     position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     gap: 12px;
     z-index: 5;
-    margin-left: 750px;
-    margin-top: -25px;
 }
 
 .custom-carousel-indicator {
@@ -547,6 +611,7 @@ width: 100%;
     background-color: rgba(83, 67, 255, 0.7);
 }
 
+
 .container {
     display: flex;
     max-width: 1200px;
@@ -556,62 +621,71 @@ width: 100%;
     gap: 30px;
     align-items: flex-start;
     margin-left: 350px;
-  }
-  
-  .image-section {
+}
+
+.image-section {
     flex: 1;
-  
-  }
-  
-  .image-section img {
+
+}
+
+.image-section img {
     max-width: 100%;
     border-radius: 20px;
     height: 400px;
     width: 700px;
     margin-left: -90px;
-  }
-  
-  .text-section {
+}
+
+.text-section {
     flex: 2;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-  
-  h1 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .highlight {
-    color: #b181ff;
-  }
-  
-  .description {
-    margin-bottom: 90px;
-  }
-  
-  .description p {
-    margin-bottom: 10px;
-    line-height: 1.5;
-    color: #ffffff; /* Texto branco */
-    font-weight: 500; /* Mais visível */
-    font-size: 1.1rem; /* Tamanho ligeiramente maior */
-    text-shadow: 0 1px 2px rgba(0,0,0,0.3); /* Sombra para melhor contraste */
-  }
-  .container .description {
-    display: block; /* visível no desktop */
-  }
-  .container .description-mobile {
-    display: none; /* escondido no desktop */
 }
 
-  
-  .price-box {
-    margin-top: auto; /* garante que fique no fim da coluna */
-  }
-  
-  .badge {
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #b181ff;
+}
+
+.description {
+    margin-bottom: 90px;
+}
+
+.description p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #ffffff;
+    /* Texto branco */
+    font-weight: 500;
+    /* Mais visível */
+    font-size: 1.1rem;
+    /* Tamanho ligeiramente maior */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    /* Sombra para melhor contraste */
+}
+
+.container .description {
+    display: block;
+    /* visível no desktop */
+}
+
+.container .description-mobile {
+    display: none;
+    /* escondido no desktop */
+}
+
+
+.price-box {
+    margin-top: auto;
+    /* garante que fique no fim da coluna */
+}
+
+.badge {
     display: inline-block;
     background-color: #5119ad;
     color: rgb(255, 255, 255);
@@ -620,30 +694,33 @@ width: 100%;
     font-weight: bold;
     margin-bottom: 10px;
     margin-left: -60px;
-  }
-  
-  .price {
+}
+
+.price {
     font-size: 5rem;
     font-weight: bold;
     margin: 10px 0;
-    color: #ffffff; /* Preço também em branco */
+    color: #ffffff;
+    /* Preço também em branco */
     margin-left: -130px;
-  }
-  
-  .price sup {
+}
+
+.price sup {
     font-size: 1.5rem;
-    
-  }
-  
-  .installment {
+
+}
+
+.installment {
     font-size: 1.7rem;
-    color: #ffffff; /* Parcelamento em branco */
+    color: #ffffff;
+    /* Parcelamento em branco */
     margin-bottom: 20px;
-    opacity: 0.9; /* Leve transparência para suavizar */
+    opacity: 0.9;
+    /* Leve transparência para suavizar */
     margin-left: -160px;
-  }
-  
-  .cta-button {
+}
+
+.cta-button {
     background-color: #7b2ff7;
     color: white;
     padding: 15px 80px;
@@ -654,50 +731,52 @@ width: 100%;
     transition: 0.3s;
     margin-left: -200px;
     font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
 
-  }
-  
-  .cta-button:hover {
+.cta-button:hover {
     background-color: #8f62ce;
-  }
-         @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-                margin-left: 0;
-                padding: 10px;
-            }
+    transform: scale(1.08); /* aumenta levemente */
+}
 
-            .image-section img {
-                width: 100%;
-                margin-left: 0;
-                height: auto;
-            }
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        margin-left: 0;
+        padding: 10px;
+    }
 
-            .text-section {
-                align-items: center;
-            }
+    .image-section img {
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+    }
 
-            .price {
-                font-size: 3rem;
-                margin-left: 0;
-            }
+    .text-section {
+        align-items: center;
+    }
 
-            .installment {
-                font-size: 1.5rem;
-                margin-left: 0;
-            }
+    .price {
+        font-size: 3rem;
+        margin-left: 0;
+    }
 
-            .badge {
-                margin-left: 0;
-                margin-bottom: 10px;
-            }
+    .installment {
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
 
-            .cta-button {
-                margin-left: 0;
-            }
-        }
+    .badge {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
 
-  .modulos-container {
+    .cta-button {
+        margin-left: 0;
+    }
+}
+
+.modulos-container {
     font-family: 'Segoe UI', Arial, sans-serif;
     max-width: 1200px;
     margin: 0 auto;
@@ -720,7 +799,7 @@ width: 100%;
     border-radius: 8px;
     margin-bottom: 15px;
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .modulo-header {
@@ -782,227 +861,3 @@ width: 100%;
     color: #212529;
     font-weight: 600;
 }
-
-@media (max-width: 768px) {
-    .div1 .video1 {
-        width: 430px;
-        height: 240px;
-        margin-left: 30px;
-    }
-
-    .div1 {
-        margin-top: 0;
-    }
-
-    .div1 .imagem1 {
-        max-width: 100px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        margin-left: 25px;
-    }
-
-    .div1 .texto1,
-    .div1 .texto2 {
-        display: none;
-    }
-
-    .div1 .texto1mobile,
-    .div1 .texto2mobile,
-    .texto7mobile,
-    .texto9mobile {
-        display: block;
-        font-family: 'Montserrat', Arial, sans-serif;
-        color: white;
-        margin-left: 20px;
-        line-height: 1.0;
-        font-size: 1rem;
-    }
-
-    .div1 .texto1mobile {
-        font-size: 2rem; /* 32px */
-        font-weight: bolder;
-        margin-top: 70px;
-    }
-
-    .div1 .texto2mobile {
-        font-size: 1rem; /* 18px */
-        margin-right: -20px;
-        margin-top: 70px;
-    }
-
-    .texto7mobile,
-    .texto9mobile {
-        font-size: 1.3rem; /* 18px */
-        line-height: 110%;
-        margin-top: 10px;
-        font-weight: 500;
-        font-family: 'Montserrat', Arial, sans-serif;
-    }
-
-    .cartao {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .div2, .div3, .div4, .div5 {
-        width: 90%;
-    }
-
-    .titulo1, .titulo2, .titulo3, .titulo4 {
-        font-size: 18px;
-    }
-
-    .div2p1, .div3p1, .div4p1, .div5p1 {
-        margin-top: -10px;
-    }
-
-    .divdupla, .div6, .div7 {
-        margin-top: 40px;
-    }
-
-    .div6, .div7 {
-        position: static;
-        width: 90%;
-        max-width: 100%;
-        margin: 0 auto;
-    }
-
-    .texto6, .texto8 {
-        font-size: 32px;
-        padding: 0 20px;
-    }
-
-.texto7,
-.texto9 {
-    font-size: 1rem; /* 18px */
-    padding: 0 20px;
-    margin: 0;
-    line-height: 1.4;
-    display: none;
-}
-
-
-    .imagem6, .imagem7 {
-        width: 150px;
-        height: 150px;
-    }
-
-    .divoferta {
-        margin-top: 30px;
-    }
-
-    .slider-container {
-        width: 90%;
-        height: 200px;
-        margin: 20px auto 40px;
-    }
-
-    .slide.prev {
-        width: 15%;
-        height: 35%;
-        left: 15%;
-        top: 55%;
-        transform: translateX(-100%) translateY(-50%);
-        opacity: 0.4;
-        filter: blur(3px);
-        z-index: 0;
-    }
-
-    .slide.active {
-        width: 70%;
-        height: 100%;
-        left: 50%;
-        top: 0;
-        transform: translateX(-50%);
-        opacity: 1;
-        filter: none;
-        z-index: 3;
-    }
-
-    .slide.next {
-        width: 25%;
-        height: 35%;
-        left: 88%;
-        top: 55%;
-        transform: translateX(-50%) translateY(-50%);
-        opacity: 0.6;
-        filter: blur(3px);
-        z-index: 1;
-    }
-
-    .btn-prev, .btn-next {
-        margin-top: 150px;
-    }
-
-    .btn {
-        width: 40px;
-        height: 40px;
-        font-size: 20px;
-    }
-
-    .btn-prev {
-        left: 5px;
-    }
-
-    .btn-next {
-        right: 5px;
-    }
-
-    .dots-container {
-        margin-top: 10px;
-        gap: 8px;
-    }
-
-    .dot {
-        width: 10px;
-        height: 10px;
-    }
-
-    .instructor-description h2 {
-        margin-top: -20px;
-    }
-
-    .instructor-description p {
-        font-size: 1.2rem;
-    }
-
-    .custom-carousel-container {
-        max-width: 1300px;
-        margin-left: 20px;
-    
-    }
-
-    .custom-carousel-slide {
-        flex: 0 0 calc((100% - 80px) / 3);
-    }
-
-    .divprincipalcarousel .custom-prev-btn {
-        left: 10px;
-        margin-top: -35px;
-    }
-
-    .divprincipalcarousel .custom-next-btn {
-        right: 10px;
-        margin-top: -35px;
-    }
-    .container .description {
-        display: none; /* esconde a versão desktop */
-    }
-
-    .container .description-mobile {
-        display: block; /* mostra a versão mobile */
-        color: #f8f9fa;
-        font-size: 1.2rem;
-        margin-left: 20px;
-}
-.container .image-section
-    {
-    margin-left: 80px;
-    width: 17rem; /* Define a largura */
-    height: 17rem; /* Define a altura */
-    }
-    
-}
-
-
-

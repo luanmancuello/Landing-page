@@ -571,11 +571,11 @@ body {
 }
 
 .divprincipalcarousel .custom-prev-btn {
-    left: 10px;
+    left: -50px;
 }
 
 .divprincipalcarousel .custom-next-btn {
-    right: 10px;
+    right: -50px;
 }
 
 .custom-carousel-btn:hover {
